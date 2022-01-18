@@ -2,6 +2,11 @@
 
 SpongeWare is an open-source PoC ransom malware payload generator. I initially developed this project during a cyber training exercise, but have since decided to opensource it because it is pretty cool and someone may be able to learn from it. It uses curve25519 elliptical curve cryptography with ephemeral keys to encrypt files. Read more about that [here](https://cr.yp.to/ecdh.html)
 
+
+![SS_1](https://raw.githubusercontent.com/peterbro1/SpongeWare/master/Screenshot_1.png)
+![SS_2](https://raw.githubusercontent.com/peterbro1/SpongeWare/master/Screenshot_2.png)
+
+
 # **Warning**
 This is script generates a live piece of malware that can permanently destroy your data and system. If you do not know what you're doing, please do not run this. I am pushing this code to the public domain with the intent to educate. I am **NOT** liable for any misuse, modification, or distribution of this script or any of its code.
 
